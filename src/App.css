@@ -1,0 +1,35 @@
+.calendar-container{
+  background-color: white; 
+  border-radius: .5rem;
+  box-shadow: rgba(0, 0, 0, 0.174) 0px 10px 1rem; 
+  width: min-content;
+  padding: 1rem;
+}
+
+/* 
+.calendar-weekday{
+  width: 100%;  
+} */
+
+.calendar-day.selected{
+  color: black;
+  background-color: rgba(128, 128, 128, 0.455);
+}
+.calendar-day{
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  background-color: white;
+  transition: background-color .45s;
+}
+.calendar-day:hover{
+  background-color: rgba(128, 128, 128, 0.455);
+}
+
+.calendar-controls{
+  display: flex;
+  color: lightblue;
+}
+.calendar-month{
+  width: 100%;
+}
